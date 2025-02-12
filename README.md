@@ -15,9 +15,9 @@ A reference architecture diagram and deployment scripts can be found in the proj
 1. **Virtual Private Cloud (VPC):** Configured with both public and private subnets across two Availability Zones.
 ![Screenshot 2025-02-11 054311](https://github.com/user-attachments/assets/69b4081c-67c0-45a6-a31a-67a0a01665ed)
 ---
-
 2. **Internet Gateway:** Enables communication between VPC instances and the internet.
-
+![Screenshot 2025-02-11 054414](https://github.com/user-attachments/assets/1b3a0e8d-1088-40f7-b66d-116b15d7e13c)
+---
 3. **Security Groups:** Serve as a network firewall mechanism to regulate inbound and outbound traffic.
 
 4. **Availability Zones:** Two Availability Zones were used to ensure fault tolerance and reliability.
