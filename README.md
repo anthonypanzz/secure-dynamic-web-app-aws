@@ -7,8 +7,6 @@
 ## Project Overview
 This project demonstrates the deployment of a dynamic website on AWS using various AWS services to ensure scalability, security, and high availability. The infrastructure is designed with a Virtual Private Cloud (VPC) spanning multiple Availability Zones, leveraging an Auto Scaling Group, Load Balancer, and other AWS services.
 
-## Architecture Diagram
-A reference architecture diagram and deployment scripts can be found in the project's [GitHub Repository](#) (replace with actual link).
 
 ## AWS Resources Utilized
 ### **Networking and Security**
