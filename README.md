@@ -1,8 +1,9 @@
+# Dynamic Website Deployment on AWS
+
+
 ![Alt text](Host_a_Dynamic_Web_App_on_AWS.png)
 
 ---
-
-# Dynamic Website Deployment on AWS
 
 ## Project Overview
 This project demonstrates the deployment of a dynamic website on AWS using various AWS services to ensure scalability, security, and high availability. The infrastructure is designed with a Virtual Private Cloud (VPC) spanning multiple Availability Zones, leveraging an Auto Scaling Group, Load Balancer, and other AWS services.
