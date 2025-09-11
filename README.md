@@ -76,16 +76,7 @@ This project demonstrates the deployment of a dynamic website on AWS using vario
 ![Screenshot 2025-02-10 063023](https://github.com/user-attachments/assets/1426eb7b-7544-4569-9a3e-e7b85d15c516)
 ![Screenshot 2025-02-10 063040](https://github.com/user-attachments/assets/3cd71a2c-6ff9-4d4c-8318-767ad9d42d18)
 ---
-## Deployment Instructions
-1. Clone the GitHub repository:
-   ```sh
-   git clone <repository-url>
-   cd <project-directory>
-   ```
-2. Deploy the CloudFormation template or Terraform scripts (if provided) to set up the infrastructure.
-3. Configure DNS settings in Route 53 to point to the ALB.
-4. Upload the application code to S3 and deploy it to EC2 instances.
-5. Validate the deployment by accessing the website using the registered domain name.
+
 
 ## Monitoring and Alerts
 - The Auto Scaling Group is configured with SNS to send notifications on instance scaling events.
