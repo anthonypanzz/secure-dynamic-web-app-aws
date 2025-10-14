@@ -83,7 +83,7 @@ This project demonstrates the deployment of a dynamic website on AWS using vario
 - AWS CloudWatch can be used for monitoring instance performance and logging application errors.
 
 ## Conclusion
-This project demonstrates a highly available, scalable, and secure architecture for hosting a dynamic website on AWS using best DevOps practices. By leveraging AWS services, we ensure seamless scalability, security, and efficient resource management.
+This project demonstrates a highly available, scalable, and secure architecture for hosting a dynamic website on AWS using best DevOps practices. By leveraging AWS services, I ensure seamless scalability, security, and efficient resource management.
 
 ---
 
