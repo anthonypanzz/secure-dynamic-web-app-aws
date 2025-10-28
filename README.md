@@ -75,12 +75,29 @@ This project demonstrates the deployment of a dynamic website on AWS using vario
 ![Screenshot 2025-02-11 054719](https://github.com/user-attachments/assets/db41abc3-7b6a-43ce-80ef-176300a2b9f2)
 ![Screenshot 2025-02-10 063023](https://github.com/user-attachments/assets/1426eb7b-7544-4569-9a3e-e7b85d15c516)
 ![Screenshot 2025-02-10 063040](https://github.com/user-attachments/assets/3cd71a2c-6ff9-4d4c-8318-767ad9d42d18)
----
 
+---
 
 ## Monitoring and Alerts
 - The Auto Scaling Group is configured with SNS to send notifications on instance scaling events.
 - AWS CloudWatch can be used for monitoring instance performance and logging application errors.
+
+---
+
+## Challenges I came across along the way
+* ACM- The web app was not fully secure with SSL/TLS certificate communication, even though I created the HTTPS listener on the ALB and forwarded it to the target group.
+- So, I had to modify the HTTP listener to redirect HTTP traffic to HTTPS. This will encrypt the internet communication between the end users and the website. 
+- HTTP will not. 
+- When the user accesses the website on HTTP, that traffic will be directed to HTTPS.
+- This changes the domain name from HTTP to HTTPS.
+
+* RDS- When the domain name changes, I needed to update the app URL in the .env file to the correct domain name (HTTPS).
+- So, I connected to my EC2 Linux by using the EC2 Connect endpoint, and changed my directory to the HTML directory. 
+- Modified the .env file by using the vi editor. 
+- Modified the APP URL to HTTP--->HTTPS with my domain name.
+- Restarted the server (sudo service httpd restart).
+
+---
 
 ## Conclusion
 This project demonstrates a highly available, scalable, and secure architecture for hosting a dynamic website on AWS using best DevOps practices. By leveraging AWS services, I ensure seamless scalability, security, and efficient resource management.
