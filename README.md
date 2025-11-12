@@ -99,6 +99,19 @@ This project demonstrates the deployment of a dynamic website on AWS using vario
 
 ---
 
+🎯 Final Verification
+- Application accessible via custom domain (HTTPS)
+- Private EC2 instances connect securely to RDS
+- ALB distributes requests evenly across instances
+- NAT Gateway enables private subnet outbound access
+- ASG scales automatically under load
+- All Security Groups follow least-privilege principle
+- IAM roles follow least-privilege access
+- Application code properly deployed from S3
+- Architecture diagram and documentation completed
+
+---
+
 ## Conclusion
 This project demonstrates a highly available, scalable, and secure architecture for hosting a dynamic website on AWS using best DevOps practices. By leveraging AWS services, I ensure seamless scalability, security, and efficient resource management.
 
